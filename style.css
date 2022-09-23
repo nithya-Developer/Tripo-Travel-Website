@@ -105,10 +105,10 @@ nav{
 .exclusives div img{
     width: 100%;
     border-radius: 10px;
-    float: left;
-    height: 150px;
-    background-size: cover;
-    justify-content: space-between;
+    
+    /* height: 150px; */
+    /* background-size: cover; */
+    /* justify-content: space-between; */
 }
 .exclusives div{
     position: relative;
