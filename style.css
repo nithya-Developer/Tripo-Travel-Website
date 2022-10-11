@@ -1,8 +1,11 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); */
+
 *{
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .header{
     min-height: 100vh;
@@ -18,17 +21,19 @@ nav{
     padding: 20px 7%;
 }
 .logo{
-    width:140px;
+    width:180px;
     cursor: pointer;
 }
 .nav-links li{
     list-style: none;
     display: inline-block;
     margin: 10px 30px;
+    ;
 }
 .nav-links li a{
     text-decoration: none;
     color: #fff;
+    font-size: 20px;
 
 }
 .register-btn{
@@ -37,10 +42,11 @@ nav{
     padding:8px 20px;
     border-radius:20px;
     text-decoration: none;
-    font-size:14px;
+    font-size:16px;
 }
 .container{
     padding: 0 7%;
+    margin: center;
 }
 .header h1{
     font-size: 4vw;
@@ -58,14 +64,17 @@ nav{
 }
 .search-bar form{
     display:flex;
+    padding: 6px 10px 6px 30px;
     align-items: center;
     flex-wrap: wrap;
 }
 .search-bar form input{
     display:block;
+    margin-top:12px;
     border: 0;
     outline: none;
-    background-color:transparent;
+    font-size: 16px;
+    background:transparent;
 }
 .search-bar form button{
     background: #ff5361;
@@ -84,10 +93,11 @@ nav{
     flex: 1;
 }
 .search-bar form label{
+    font-size: 20px;
     font-weight:600;
 }
 
-/* exclusives section */
+/* ========= exclusives section =========== */
 
 .sub-title{
     margin: 50px 0 20px;
@@ -97,18 +107,16 @@ nav{
 }
 .exclusives{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 30px;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+    /* repeat(auto-fit, minmax(200px, 1fr)); */
+    grid-gap: 50px; 
     margin-bottom: 30px;
     
 }
 .exclusives div img{
     width: 100%;
     border-radius: 10px;
-    
-    /* height: 150px; */
-    /* background-size: cover; */
-    /* justify-content: space-between; */
+    /* height: 120px; */
 }
 .exclusives div{
     position: relative;
@@ -120,4 +128,17 @@ nav{
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
+}
+
+/* ========== Trending Places ============ */
+
+.trending{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 40px;
+    margin-bottom: 30px;
+}
+.trending div img{
+    width: 100%;
+    border-radius: 10px;
 }
