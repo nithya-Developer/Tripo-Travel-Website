@@ -189,7 +189,9 @@ nav{
     width: 100%;
     background-size: cover;
     border-radius: 10px;
-    height: 700px;   
+    height: 580px;  
+    background-size: cover;
+
 }
 .stories div{
     position: relative;
@@ -203,4 +205,55 @@ nav{
     transform: translate(-50%, -50%);
     color: #fff;
     font-size: 26px;
+}
+.start-btn{
+    text-decoration: none;
+    background: #ff5361;
+    color: #fff;
+    width: 80%;
+    max-width: 350px;
+    display: block;
+    text-align: center;
+    margin: 60px auto;
+    padding: 15px;
+    border-radius: 30px;
+    font-size: 20px;
+}
+/* ========== About us ============ */
+.about-us{
+    text-align: center;
+    margin: 80px 0;
+    color: #333;
+    font-size: 19px;
+}
+.about-us h2{
+    font-size: 38px;
+    margin-bottom: 30px;
+    font-weight: 550;
+}
+
+
+
+/* ========== Footer ============ */
+
+.footer{
+    margin: 80px 0 10px;
+    text-align: center;
+}
+.footer a {
+    text-decoration: none;
+    color: #999;
+    font-size: 22px;
+    margin: 0 10px;
+}
+
+.footer hr{
+    background: #999;
+    height: 1px;
+    width: 100%;
+    border: 0;
+    margin: 20px 0;
+}
+.footer p{
+    padding-bottom: 15px;
 }
