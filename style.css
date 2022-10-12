@@ -141,8 +141,42 @@ nav{
 .trending div img{
     width: 100%;
     border-radius: 10px;
+    height: 450px;
+}
+.trending h3{
+    font-weight: 600;
+    margin-top: 10px; 
+    
 }
 
+/* ========== call to action ============ */
+.cta{
+    margin: 80px auto;
+    background-image: linear-gradient(to right, #3f2321, transparent), url(images/bnr.jpg);
+    background-size: cover;
+    background-position: 30% 70%;
+    border-radius: 10px;
+    padding: 7%;
+    color: #fff;
+}
+.cta h3{
+    font-size: 4vw;
+    line-height: 5.3vw;
+    font-weight: 500;
+}
+.cta p{
+    font-size: 18px;
+    margin: 10px 0;
+}
+.cta-btn{
+    background-color: #ff5361;
+    color: #fff;
+    text-decoration: none;
+    padding: 12px 30px;
+    border-radius: 8px;
+    margin-top: 20px;
+    display: inline-block;
+}
 /* ========== Travellers Stories ============ */
 
 .stories{
@@ -153,6 +187,7 @@ nav{
 }
 .stories div img{
     width: 100%;
+    background-size: cover;
     border-radius: 10px;
     height: 700px;   
 }
