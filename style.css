@@ -114,9 +114,9 @@ nav{
     
 }
 .exclusives div img{
-    width: 100%;
+    width: 95%;
     border-radius: 10px;
-    /* height: 120px; */
+    height: 150px;
 }
 .exclusives div{
     position: relative;
@@ -124,7 +124,7 @@ nav{
 .exclusives div span {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 45%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: #fff;
@@ -141,4 +141,31 @@ nav{
 .trending div img{
     width: 100%;
     border-radius: 10px;
+}
+
+/* ========== Travellers Stories ============ */
+
+.stories{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 30px;
+    margin-bottom: 30px;
+}
+.stories div img{
+    width: 100%;
+    border-radius: 10px;
+    height: 700px;   
+}
+.stories div{
+    position: relative;
+    text-align: center;
+}
+.stories p{
+    width: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 26px;
 }
