@@ -7,13 +7,24 @@
     <title>Tripo Holiday Homes & Apartment Rentals</title>
     <link rel="stylesheet" href="style.css" />
     <script src="https://kit.fontawesome.com/69179790e7.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </head>
   <body>
     <div class="header">
+      <!--Coupon-->
+         <div id="couponContainer">
+            <div id="coupon">
+                <button onClick="closeCoupon()"><i class="fa-solid fa-xmark"></i></button>
+                <div><img src="images/coupon.png" alt="coupon" width="600px" height="450px"></div>
+            <script>
+                window.onload = loadCoupon()
+            </script>
+            </div>
+          </div>
       <nav>
         <img src="images/logo-1.png" alt="logo" class="logo" />
         <ul class="nav-links">
-          <li><a href="#">Popular Places</a></li>
+          <li><a href="#" class="active">Popular Places</a></li>
           <li><a href="#">Travel Outside</a></li>
           <li><a href="#">Online Packages</a></li>
         </ul>
@@ -43,7 +54,9 @@
           </form>
         </div>
       </div>
+      
     </div>
+    
     <div class="container">
       <h2 class="sub-title">Exclusive</h2>
       <div class="exclusives">

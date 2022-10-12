@@ -96,6 +96,25 @@ nav{
     font-size: 20px;
     font-weight:600;
 }
+/* ========= Coupons =========== */
+/* #coupons{
+    height: 300px;
+    width: 500px;
+    background-color: orange;
+    z-index: 100;
+    margin: auto;
+} */
+#coupon {
+    z-index: 100;
+    margin-left: 35%;
+    position: fixed;
+    visibility: collapse;
+    opacity: 95%;
+    box-shadow: 10px 10px 20px gray;
+    margin-top: 5%;
+    background-color: gray;
+    font-size: 22px;
+}
 
 /* ========= exclusives section =========== */
 
@@ -256,4 +275,20 @@ nav{
 }
 .footer p{
     padding-bottom: 15px;
+}
+
+.active{
+    position: relative;
+}
+.active::after{
+    content: '';
+    background: #fff;
+    width: 25px;
+    height: 2px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -12px;
+    border-radius: 2px;
+
 }
