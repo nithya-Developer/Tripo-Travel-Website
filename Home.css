@@ -109,7 +109,7 @@ nav{
     margin-left: 35%;
     position: fixed;
     visibility: collapse;
-    opacity: 95%;
+    opacity: 1;
     box-shadow: 10px 10px 20px gray;
     margin-top: 5%;
     background-color: gray;
