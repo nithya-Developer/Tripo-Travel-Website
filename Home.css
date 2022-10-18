@@ -77,7 +77,7 @@ nav{
     background:transparent;
 }
 .search-bar form button{
-    background: #ff5361;
+    background: #5a287d;
     width: 55px;
     height: 55px;
     border-radius: 50%;
@@ -188,7 +188,7 @@ nav{
     margin: 10px 0;
 }
 .cta-btn{
-    background-color: #ff5361;
+    background-color: #5a287d;
     color: #fff;
     text-decoration: none;
     padding: 12px 30px;
@@ -227,7 +227,7 @@ nav{
 }
 .start-btn{
     text-decoration: none;
-    background: #ff5361;
+    background: #5a287d;
     color: #fff;
     width: 80%;
     max-width: 350px;
@@ -255,25 +255,25 @@ nav{
 
 /* ========== Footer ============ */
 
-.footer{
+.footer-nav{
     margin: 80px 0 10px;
     text-align: center;
 }
-.footer a {
+.footer-nav a {
     text-decoration: none;
     color: #999;
     font-size: 22px;
     margin: 0 10px;
 }
 
-.footer hr{
+.footer-nav hr{
     background: #999;
     height: 1px;
     width: 100%;
     border: 0;
     margin: 20px 0;
 }
-.footer p{
+.footer-nav p{
     padding-bottom: 15px;
 }
 
