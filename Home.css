@@ -1,7 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); */
 
 *{
-
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -34,8 +33,23 @@ nav{
     text-decoration: none;
     color: #fff;
     font-size: 20px;
+    /* flex: 1; */
 
 }
+.mydark {
+    background-color: black;
+    color: white;
+}
+#IconTheme {
+    border-radius: 50%;
+    float: right;
+    padding-top: 5px;
+    margin-right: 15px;
+    cursor: pointer;
+    
+}
+
+
 .register-btn{
     background-color: #fff;
     color: #000;
@@ -75,6 +89,7 @@ nav{
     outline: none;
     font-size: 16px;
     background:transparent;
+    color: #000;
 }
 .search-bar form button{
     background: #5a287d;
@@ -91,10 +106,12 @@ nav{
 }
 .location-input {
     flex: 1;
+    color: #000;
 }
 .search-bar form label{
     font-size: 20px;
     font-weight:600;
+    color: #000;
 }
 /* ========= Coupons =========== */
 /* #coupons{
@@ -123,6 +140,7 @@ nav{
     font-size: 2.2vw;
     font-weight: 500;
     color: #333;
+    
 }
 .exclusives{
     display: grid;
@@ -242,13 +260,14 @@ nav{
 .about-us{
     text-align: center;
     margin: 80px 0;
-    color: #333;
+    /* color: #000; */
     font-size: 19px;
 }
 .about-us h2{
     font-size: 38px;
     margin-bottom: 30px;
     font-weight: 550;
+    /* color: #000; */
 }
 
 
