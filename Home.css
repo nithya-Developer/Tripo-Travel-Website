@@ -45,11 +45,8 @@ nav{
     float: right;
     padding-top: 5px;
     margin-right: 15px;
-    cursor: pointer;
-    
+    cursor: pointer;  
 }
-
-
 .register-btn{
     background-color: #fff;
     color: #000;
@@ -138,9 +135,7 @@ nav{
 .sub-title{
     margin: 50px 0 20px;
     font-size: 2.2vw;
-    font-weight: 500;
-    color: #333;
-    
+    font-weight: 500;    
 }
 .exclusives{
     display: grid;
