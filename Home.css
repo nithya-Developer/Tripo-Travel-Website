@@ -130,6 +130,19 @@ nav{
     font-size: 22px;
 }
 
+
+.weather {
+    position: relative;
+    text-align: center;
+    font-size: 22px;
+    margin-top: 98px;
+    width: 94%;
+    height: 80%;
+}
+
+#weatherOut {
+    color: crimson
+}
 /* ========= exclusives section =========== */
 
 .sub-title{
