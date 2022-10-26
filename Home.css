@@ -134,6 +134,7 @@ nav{
 .weather {
     position: relative;
     text-align: center;
+    cursor: pointer;
     font-size: 22px;
     margin-top: 98px;
     width: 94%;

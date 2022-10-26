@@ -48,7 +48,3 @@ function showPosition(data){
         console.log(err)
     })
 }
-Footer
-© 2022 GitHub, Inc.
-Footer navigation
-Ter
