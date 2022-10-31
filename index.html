@@ -6,6 +6,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tripo Holiday Homes & Apartment Rentals</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="Home.css" />
   <script src="https://kit.fontawesome.com/69179790e7.js" crossorigin="anonymous"></script>
   <script src="Home.js"></script>
@@ -23,6 +26,7 @@
         </script>
       </div>
     </div>
+    
     <nav>
       <img src="images/logo-1.png" alt="logo" class="logo" />
       <ul class="nav-links">
@@ -33,6 +37,15 @@
 
       <img src="https://i.ibb.co/1vk5jD9/day-and-night-1.png" alt="day-and-night-1" id="IconTheme"
         onClick="changeMode()">
+
+
+      <!--Geo location and weather-->
+      <button class="btn btn-light me-3" onClick="geolocation()"><img
+          src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTdqWrJ28n35OK-SA53G4eUfOoRb2WWeWUEEw&usqp=CAU'
+          alt="weather" height="20px" width="30px" /></button>
+      <p id="out"></p>
+      <p id="weatherOut"></p>
+      
       <a href="#" class="register-btn">Register Now</a>
     </nav>
     <div class="container">
@@ -58,13 +71,13 @@
           <button type="submit"><img src="images/search.png" /></button>
         </form>
       </div>
-      <div class="weather">
-        <h2 style="color:#3b5998; font-weight: bold;">Know Your Weather</h2>
-        <button class="btn btn-info" onClick="geolocation()">Get Location</button></br>
+      <!-- <div class="weather">
+        <h2 style="color:#5825da; font-weight: bold;">Know Your Weather</h2>
+        <button class="btn btn-primary" onClick="geolocation()">Get Location</button></br>
         <h3 id="out"></h3>
         <h3 id="weatherOut"></h3>
 
-      </div>
+      </div> -->
     </div>
   </div>
 

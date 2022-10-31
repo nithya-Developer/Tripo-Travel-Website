@@ -1,94 +1,108 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap'); */
-
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
-.header{
+
+.header {
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(images/banner1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/banner1.jpg);
     background-size: cover;
     background-position: center;
 }
-nav{
+
+nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 20px 7%;
 }
-.logo{
-    width:180px;
+
+.logo {
+    width: 180px;
     cursor: pointer;
 }
-.nav-links li{
+
+.nav-links li {
     list-style: none;
     display: inline-block;
     margin: 10px 30px;
     ;
 }
-.nav-links li a{
+
+.nav-links li a {
     text-decoration: none;
     color: #fff;
     font-size: 20px;
     /* flex: 1; */
-
 }
+
+/* ========= dark & light mode section =========== */
 .mydark {
     background-color: black;
     color: white;
 }
+
 #IconTheme {
     border-radius: 50%;
     float: right;
     padding-top: 5px;
     margin-right: 15px;
-    cursor: pointer;  
+    cursor: pointer;
 }
-.register-btn{
+
+
+.register-btn {
     background-color: #fff;
     color: #000;
-    padding:8px 20px;
-    border-radius:20px;
+    padding: 8px 20px;
+    border-radius: 20px;
     text-decoration: none;
-    font-size:16px;
+    font-size: 16px;
 }
-.container{
-    padding: 0 7%;
+
+.container {
+    padding: 0 10%;
     margin: center;
 }
-.header h1{
+
+.header h1 {
     font-size: 4vw;
-    font-weight:500;
+    font-weight: 500;
     color: #fff;
     text-align: center;
-    padding-top:22%;
+    padding-top: 22%;
 }
-.search-bar{
+
+.search-bar {
     background-color: #fff;
-    width:70%;
+    width: 90%;
     margin: 30px auto;
     padding: 6px 10px 6px 30px;
-    border-radius:50px;
+    border-radius: 50px;
 }
-.search-bar form{
-    display:flex;
+
+.search-bar form {
+    display: flex;
     padding: 6px 10px 6px 30px;
     align-items: center;
     flex-wrap: wrap;
 }
-.search-bar form input{
-    display:block;
-    margin-top:12px;
+
+.search-bar form input {
+    display: block;
+    margin-top: 12px;
     border: 0;
     outline: none;
     font-size: 16px;
-    background:transparent;
+    background: transparent;
     color: #000;
 }
-.search-bar form button{
+
+.search-bar form button {
     background: #5a287d;
     width: 55px;
     height: 55px;
@@ -97,19 +111,23 @@ nav{
     outline: none;
     cursor: pointer;
 }
-.search-bar form button img{
+
+.search-bar form button img {
     width: 15px;
     margin-top: 7px;
 }
+
 .location-input {
     flex: 1;
     color: #000;
 }
-.search-bar form label{
+
+.search-bar form label {
     font-size: 20px;
-    font-weight:600;
+    font-weight: 600;
     color: #000;
 }
+
 /* ========= Coupons =========== */
 /* #coupons{
     height: 300px;
@@ -130,43 +148,58 @@ nav{
     font-size: 22px;
 }
 
-
-.weather {
+/* ========= weather section =========== */
+/* .weather {
     position: relative;
     text-align: center;
     cursor: pointer;
     font-size: 22px;
-    margin-top: 98px;
+    margin-top: 70px;
     width: 94%;
     height: 80%;
 }
 
 #weatherOut {
     color: crimson
-}
-/* ========= exclusives section =========== */
+} */
 
-.sub-title{
+#out {
+    color: blue;
+    font-size: 10px;
+    border-radius: 20px;
+}
+
+#weatherOut {
+    color: blue;
+    background-color: #fff;
+    font-size: 20px;
+}
+
+/* ========= exclusives section =========== */
+.sub-title {
     margin: 50px 0 20px;
     font-size: 2.2vw;
-    font-weight: 500;    
+    font-weight: 500;
 }
-.exclusives{
+
+.exclusives {
     display: grid;
-    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     /* repeat(auto-fit, minmax(200px, 1fr)); */
-    grid-gap: 50px; 
+    grid-gap: 50px;
     margin-bottom: 30px;
-    
 }
-.exclusives div img{
+
+.exclusives div img {
     width: 95%;
     border-radius: 10px;
     height: 150px;
 }
-.exclusives div{
+
+.exclusives div {
     position: relative;
 }
+
 .exclusives div span {
     position: absolute;
     top: 50%;
@@ -177,26 +210,26 @@ nav{
 }
 
 /* ========== Trending Places ============ */
-
-.trending{
+.trending {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 40px;
     margin-bottom: 30px;
 }
-.trending div img{
+
+.trending div img {
     width: 100%;
     border-radius: 10px;
     height: 450px;
 }
-.trending h3{
+
+.trending h3 {
     font-weight: 600;
-    margin-top: 10px; 
-    
+    margin-top: 10px;
 }
 
 /* ========== call to action ============ */
-.cta{
+.cta {
     margin: 80px auto;
     background-image: linear-gradient(to right, #3f2321, transparent), url(images/bnr.jpg);
     background-size: cover;
@@ -205,16 +238,19 @@ nav{
     padding: 7%;
     color: #fff;
 }
-.cta h3{
+
+.cta h3 {
     font-size: 4vw;
     line-height: 5.3vw;
     font-weight: 500;
 }
-.cta p{
+
+.cta p {
     font-size: 18px;
     margin: 10px 0;
 }
-.cta-btn{
+
+.cta-btn {
     background-color: #5a287d;
     color: #fff;
     text-decoration: none;
@@ -223,27 +259,29 @@ nav{
     margin-top: 20px;
     display: inline-block;
 }
-/* ========== Travellers Stories ============ */
 
-.stories{
+/* ========== Travellers Stories ============ */
+.stories {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     grid-gap: 30px;
     margin-bottom: 30px;
 }
-.stories div img{
+
+.stories div img {
     width: 100%;
     background-size: cover;
     border-radius: 10px;
-    height: 580px;  
+    height: 580px;
     background-size: cover;
-
 }
-.stories div{
+
+.stories div {
     position: relative;
     text-align: center;
 }
-.stories p{
+
+.stories p {
     width: 80%;
     position: absolute;
     top: 50%;
@@ -252,7 +290,8 @@ nav{
     color: #fff;
     font-size: 26px;
 }
-.start-btn{
+
+.start-btn {
     text-decoration: none;
     background: #5a287d;
     color: #fff;
@@ -265,28 +304,28 @@ nav{
     border-radius: 30px;
     font-size: 20px;
 }
+
 /* ========== About us ============ */
-.about-us{
+.about-us {
     text-align: center;
     margin: 80px 0;
     /* color: #000; */
     font-size: 19px;
 }
-.about-us h2{
+
+.about-us h2 {
     font-size: 38px;
     margin-bottom: 30px;
     font-weight: 550;
     /* color: #000; */
 }
 
-
-
 /* ========== Footer ============ */
-
-.footer-nav{
+.footer-nav {
     margin: 80px 0 10px;
     text-align: center;
 }
+
 .footer-nav a {
     text-decoration: none;
     color: #999;
@@ -294,21 +333,23 @@ nav{
     margin: 0 10px;
 }
 
-.footer-nav hr{
+.footer-nav hr {
     background: #999;
     height: 1px;
     width: 100%;
     border: 0;
     margin: 20px 0;
 }
-.footer-nav p{
+
+.footer-nav p {
     padding-bottom: 15px;
 }
 
-.active{
+.active {
     position: relative;
 }
-.active::after{
+
+.active::after {
     content: '';
     background: #fff;
     width: 25px;
@@ -318,5 +359,4 @@ nav{
     transform: translateX(-50%);
     bottom: -12px;
     border-radius: 2px;
-
 }
