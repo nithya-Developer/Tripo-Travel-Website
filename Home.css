@@ -129,13 +129,6 @@ nav {
 }
 
 /* ========= Coupons =========== */
-/* #coupons{
-    height: 300px;
-    width: 500px;
-    background-color: orange;
-    z-index: 100;
-    margin: auto;
-} */
 #coupon {
     z-index: 100;
     margin-left: 35%;
@@ -149,20 +142,6 @@ nav {
 }
 
 /* ========= weather section =========== */
-/* .weather {
-    position: relative;
-    text-align: center;
-    cursor: pointer;
-    font-size: 22px;
-    margin-top: 70px;
-    width: 94%;
-    height: 80%;
-}
-
-#weatherOut {
-    color: crimson
-} */
-
 #out {
     color: blue;
     font-size: 10px;
