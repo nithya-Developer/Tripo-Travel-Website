@@ -7,8 +7,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Tripo Holiday Homes & Apartment Rentals</title>
   <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="Home.css" />
   <script src="https://kit.fontawesome.com/69179790e7.js" crossorigin="anonymous"></script>
   <script src="Home.js"></script>
@@ -26,8 +26,8 @@
         </script>
       </div>
     </div>
-    
-    <nav>
+
+    <nav id="navBar">
       <img src="images/logo-1.png" alt="logo" class="logo" />
       <ul class="nav-links">
         <li><a href="#" class="active">Popular Places</a></li>
@@ -41,13 +41,12 @@
 
       <!--Geo location and weather-->
       <button class="btn btn-light me-3" onClick="geolocation()">
-        <img
-          src="images/weather.jpeg"
-          alt="weather" height="20px" width="20px" /></button>
+        <img src="images/weather.jpeg" alt="weather" height="20px" width="20px" /></button>
       <p id="out"></p>
       <p id="weatherOut"></p>
-      
+
       <a href="#" class="register-btn">Register Now</a>
+      <i class="fa-solid fa-bars" onclick="togglebtn()"></i>
     </nav>
     <div class="container">
       <h1>Find Your Next Stay</h1>
@@ -211,11 +210,11 @@
     </div>
     <a href="#" class="start-btn">Start making money</a>
     <div class="about-us">
-      <h2>About Tripo</h2>
+      <h3>About Tripo</h3>
       <p>Tripo is a Vacation rental company. The idea behind Tripo is simple: Find a way for local people to make some
-        extra money renting out their spare home or room to people visiting the area. <br> Hosts using this platform get
+        extra money renting out their spare home or room to people visiting the area. Hosts using this platform get
         to advertise their rentals to millions of people worldwide, with the reassurance that a big company will handle
-        payments and offer support when needed. <br> And for guests, Tripo can offer a homey place to stay that has more
+        payments and offer support when needed and for guests, Tripo can offer a homey place to stay that has more
         character, perhaps even with a kitchen to avoid dining out, often at a lower price than what hotels charge. </p>
     </div>
 
