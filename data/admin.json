@@ -1,0 +1,16 @@
+[
+    {
+        "admin_id": "a01",
+        "admin_name": "Park Jimin",
+        "admin_login": "Pjm",
+        "admin_password": "jm1995",
+        "admin_email": "adminjm95@gmail.com"
+    },
+    {
+        "admin_id": "a01",
+        "admin_name": "JungKook",
+        "admin_login": "Kook",
+        "admin_password": "jk1997",
+        "admin_email": "adminjk97@gmail.com"
+    }
+]
