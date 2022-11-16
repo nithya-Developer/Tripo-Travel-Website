@@ -55,8 +55,6 @@ function showPosition(data){
 
 // hide menu bar
 
-
-
 function togglebtn(){
   let navBar = document.getElementById("navBar");
   navBar.classList.toggle("hidemenu");
